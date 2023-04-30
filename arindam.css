@@ -1,0 +1,55 @@
+.arix-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(128, 128, 128, .5);
+}
+.arix-modal-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 65%;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #3d3d3d;
+}
+.arix-modal-header {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 60px;
+    padding: 0 10px;
+    background-color: #3d3d3d;
+    line-height: 50px;
+}
+span.arix-modal-header-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.arix-modal-body {
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    right: 5px;
+    border: 1px solid #3d3d3d;
+    height: 360px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+.arix-modal-footer {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 60px;
+    padding: 10px;
+    background-color: #3d3d3d;
+    text-align: right;
+}
+.arix-modalclose-btn {
+    margin-right: 5px;
+}
